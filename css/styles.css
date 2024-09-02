@@ -13,6 +13,10 @@ a {
     text-decoration: none;
 }
 
+strong {
+    font-size: 50px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -50,21 +54,36 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 150px;
-    margin-left: 150px;
-    margin-right: 200px;
-    /* margin: 100px 30px 150px 150px; */
-    gap: 15px;
+    margin: 150px 450px 350px 200px;
+    gap: 75px;
 }
 
 .hello {
     /* background-image: linear-gradient(red, blue);
     color:transparent;
     background-clip: text; */
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 40px;
 }
 
 .bio {
+    font-size: 40px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    /* margin: 0px 350px 150px 350px; */
+    margin: 0;
+    padding: 0px 350px 150px 350px;
+    /* margin: 100px 30px 150px 150px; */
+    gap: 30px;
+}
+
+.about_header {
     font-size: 30px;
+    white-space: nowrap;
+}
+
+.about_paragraph {
+    font-size: 20px
 }
