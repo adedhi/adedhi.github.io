@@ -1,0 +1,27 @@
+body {
+    /* background-color: #212A31; */
+    font-family: 'Lucida Grande', monospace;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 200px;
+    /* margin: 100px 30px 150px 150px; */
+    gap: 15px;
+}
+
+.hello {
+    /* background-image: linear-gradient(red, blue);
+    color:transparent;
+    background-clip: text; */
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 30px;
+}
