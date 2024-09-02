@@ -1,6 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     /* background-color: #212A31; */
     font-family: 'Lucida Grande', monospace;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid lightgray; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+.link_1, .link_2, .link_3 {
+    font-size: 25px;
 }
 
 .intro {
@@ -11,7 +37,8 @@ body {
     margin-left: 150px;
     margin-right: 200px;
     /* margin: 100px 30px 150px 150px; */
-    gap: 15px;
+    /* gap: 15px; */
+    gap: 1500px;
 }
 
 .hello {
