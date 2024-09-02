@@ -25,19 +25,24 @@ a {
     background-color: white;
 }
 
-.logo {
+.social_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
     margin-left: 50px;
-    font-size: 75px;
 }
 
-.links {
+.social_link {
+}
+
+.page_links {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     margin-right: 50px;
 }
 
-.link_1, .link_2, .link_3 {
+.page_link {
     font-size: 25px;
 }
 
