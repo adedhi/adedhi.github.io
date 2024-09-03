@@ -27,6 +27,7 @@ strong {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 9999;
 }
 
 .social_links {
@@ -99,7 +100,7 @@ strong {
     margin: 0;
     padding: 0px 350px 450px 350px;
     /* margin: 100px 30px 150px 150px; */
-    gap: 30px;
+    gap: 40px;
 }
 
 .about_header {
@@ -116,8 +117,8 @@ strong {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0px 350px 150px 350px;
-    gap: 30px;
+    padding: 0px 350px 350px 350px;
+    gap: 40px;
 }
 
 .projects_header {
@@ -171,4 +172,16 @@ strong {
     border-radius: 4px;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.designed_by {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
 }
