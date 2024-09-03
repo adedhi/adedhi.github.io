@@ -37,6 +37,7 @@ strong {
 }
 
 .social_link {
+
 }
 
 .page_links {
@@ -62,7 +63,7 @@ strong {
     /* background-image: linear-gradient(red, blue);
     color:transparent;
     background-clip: text; */
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .bio {
@@ -81,7 +82,7 @@ strong {
     justify-content: center;
     /* margin: 0px 350px 150px 350px; */
     margin: 0;
-    padding: 0px 350px 150px 350px;
+    padding: 0px 350px 450px 350px;
     /* margin: 100px 30px 150px 150px; */
     gap: 30px;
 }
@@ -141,4 +142,11 @@ strong {
 .project_resources {
     display: flex;
     gap: 15px;
+}
+
+.project_resource {
+    border: 0.5px solid black; 
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
