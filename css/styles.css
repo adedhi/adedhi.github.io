@@ -36,8 +36,15 @@ strong {
     margin-left: 50px;
 }
 
-.social_link {
+.social_link i {
+    position: relative;
+    bottom: 0;
+    transition: bottom ease 0.5s;
+    font-style: normal;
+}
 
+.social_link:hover i {
+    bottom: -5px;
 }
 
 .page_links {
@@ -47,8 +54,16 @@ strong {
     margin-right: 50px;
 }
 
-.page_link {
+.page_link i{
     font-size: 25px;
+    position: relative;
+    bottom: 0;
+    transition: bottom ease 0.5s;
+    font-style: normal;
+}
+
+.page_link:hover i {
+    bottom: -5px;
 }
 
 .intro {
@@ -135,8 +150,15 @@ strong {
     font-weight: 900;
 }
 
-.project_link {
+.project_link i {
+    font-size: 25px;
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
+}
 
+.project_link:hover i {
+    right: -10px;
 }
 
 .project_resources {
