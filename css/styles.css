@@ -34,6 +34,7 @@ a {
 .social_links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
     margin-left: 50px;
 }
@@ -183,7 +184,7 @@ a {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 10px;
-    margin-bottom: -50px;
+    margin-bottom: -54px;
     bottom: 0;
     z-index: 9999;
 }
