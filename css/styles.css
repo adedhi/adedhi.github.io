@@ -40,7 +40,7 @@ strong {
 .social_link i {
     position: relative;
     bottom: 0;
-    transition: bottom ease 0.5s;
+    transition: bottom ease 0.25s;
     font-style: normal;
 }
 
@@ -59,7 +59,7 @@ strong {
     font-size: 25px;
     position: relative;
     bottom: 0;
-    transition: bottom ease 0.5s;
+    transition: bottom ease 0.25s;
     font-style: normal;
 }
 
@@ -155,7 +155,7 @@ strong {
     font-size: 25px;
     position: relative;
     right: 0;
-    transition: right ease 0.5s;
+    transition: right ease 0.25s;
 }
 
 .project_link:hover i {
