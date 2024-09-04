@@ -55,7 +55,7 @@ strong {
     margin-right: 50px;
 }
 
-.page_link i{
+.page_link i {
     font-size: 25px;
     position: relative;
     bottom: 0;
@@ -175,6 +175,30 @@ strong {
 }
 
 .footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.bottom_page_link i { /* Use JavaScript to make the hand disappear when at the top of the page */
+    font-size: 40px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.25s;
+    font-style: normal;
+}
+
+.bottom_page_link:hover i {
+    top: -10px;
+}
+
+.footnote {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
