@@ -103,6 +103,9 @@ a {
     padding: 0px 350px 450px 350px;
     /* margin: 100px 30px 150px 150px; */
     gap: 40px;
+    transition: all 1.25s;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .about_header {
@@ -121,6 +124,9 @@ a {
     margin: 0;
     padding: 0px 350px 350px 350px;
     gap: 40px;
+    transition: all 1.25s;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .projects_header {
@@ -187,6 +193,9 @@ a {
     margin-bottom: -54px;
     bottom: 0;
     z-index: 9999;
+    transition: all 0.5s;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .bottom_page_link i { /* Use JavaScript to make the hand disappear when at the top of the page */
