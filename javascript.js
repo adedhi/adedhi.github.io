@@ -1,13 +1,3 @@
-// window.onscroll() = function() {
-//     let about_appear = 20;
-//     let projects_appear = 200;
-
-//     if ((document.body.scrollTop >= about_appear) || (document.documentElement.scrollTop >= about_appear)) {
-//         document.getElementByClass("about").style.opacity = '1';
-//         document.getElementByClass("about").style.pointerEvents = 'all';
-//     }
-// }
-
 document.addEventListener("scroll", (event) => { 
     let about_appear = 350;
     let projects_appear = 1250;
