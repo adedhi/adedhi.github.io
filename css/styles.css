@@ -73,11 +73,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* margin: 150px 350px 350px 350px; */
-    margin-top: 150px;
-    margin-bottom: 350px;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin: 150px 350px 350px 350px;
     gap: 75px;
 }
 
