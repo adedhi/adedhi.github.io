@@ -24,6 +24,7 @@ a {
     padding-top: 25px;
     padding-bottom: 25px;
     position: sticky;
+    gap: 15%;
     top: 0;
     background-color: white;
     z-index: 9999;
@@ -69,10 +70,10 @@ a {
 
 .intro, .about, .projects {
     margin-bottom: 350px;
-    margin-left: 350px;
-    margin-right: 350px;
-    /* margin-left: 20.25%;
-    margin-right: 20.25%; */
+    /* margin-left: 350px;
+    margin-right: 350px; */
+    margin-left: 20.25%;
+    margin-right: 20.25%;
 }
 
 .intro {
