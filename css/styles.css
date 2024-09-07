@@ -5,7 +5,6 @@ body, html {
 }
 
 body {
-    /* background-color: #212A31; */
     font-family: 'Lucida Grande', monospace;
 }
 
@@ -22,7 +21,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid lightgray; */
     padding-top: 25px;
     padding-bottom: 25px;
     position: sticky;
@@ -69,18 +67,21 @@ a {
     bottom: -5px;
 }
 
+.intro, .about, .projects {
+    margin-bottom: 350px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
 .intro {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 150px 350px 350px 350px;
+    margin-top: 150px;
     gap: 75px;
 }
 
 .hello {
-    /* background-image: linear-gradient(red, blue);
-    color:transparent;
-    background-clip: text; */
     font-size: 45px;
 }
 
@@ -98,14 +99,11 @@ a {
 .about {
     display: flex;
     justify-content: center;
-    /* margin: 0px 350px 150px 350px; */
-    margin: 0;
-    padding: 0px 350px 450px 350px;
-    /* margin: 100px 30px 150px 150px; */
     gap: 40px;
-    transition: all 1.25s;
+    margin-top: 0px;
     opacity: 0;
     pointer-events: none;
+    transition: all 1.25s;
 }
 
 .about_header {
@@ -121,12 +119,11 @@ a {
 .projects {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0px 350px 350px 350px;
     gap: 40px;
-    transition: all 1.25s;
+    margin-top: 0px;
     opacity: 0;
     pointer-events: none;
+    transition: all 1.25s;
 }
 
 .projects_header {
@@ -191,19 +188,19 @@ a {
     padding-bottom: 25px;
     padding-right: 10px;
     margin-bottom: -54px;
-    bottom: 0;
     z-index: 9999;
-    transition: all 0.5s;
+    bottom: 0;
     opacity: 0;
     pointer-events: none;
+    transition: all 0.5s;
 }
 
-.bottom_page_link i { /* Use JavaScript to make the hand disappear when at the top of the page */
+.bottom_page_link i {
     font-size: 40px;
+    font-style: normal;
     position: relative;
     top: 0;
     transition: top ease 0.25s;
-    font-style: normal;
 }
 
 .bottom_page_link:hover i {
@@ -218,6 +215,6 @@ a {
 
 .designed_by {
     font-size: 20px;
-    text-align: center;
     font-weight: bold;
+    text-align: center;
 }

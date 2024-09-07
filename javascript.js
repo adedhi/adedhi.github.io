@@ -1,6 +1,6 @@
 document.addEventListener("scroll", (event) => { 
     let about_appear = 350;
-    let projects_appear = 1250;
+    let projects_appear = 1050;
     let hand_appear = 100;
 
     if (window.scrollY >= about_appear) {
