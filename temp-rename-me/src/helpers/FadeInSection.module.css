@@ -1,0 +1,12 @@
+.fadeInSection {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.75s ease-out;
+    will-change: opacity;
+}
+
+.visible {
+    opacity: 1;
+    pointer-events: all;
+    transform: none;
+}

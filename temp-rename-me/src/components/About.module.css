@@ -1,0 +1,18 @@
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 0px;
+    scroll-margin-top: 100px;
+    transition: all 1.25s;
+}
+
+.header {
+    font-size: 35px;
+    white-space: nowrap;
+    margin-top: -3px;
+}
+
+.body {
+    font-size: 20px;
+}

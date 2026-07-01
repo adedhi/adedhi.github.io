@@ -1,0 +1,39 @@
+.footerLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    margin-bottom: -54px;
+    z-index: 9999;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    transition: all 0.5s;
+}
+
+.footerLink span {
+    font-size: 40px;
+    font-style: normal;
+    position: relative;
+    top: 0;
+    transition: top ease 0.25s;
+}
+
+.footerLink:hover span {
+    top: -10px;
+}
+
+.footnote {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.footnoteText {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

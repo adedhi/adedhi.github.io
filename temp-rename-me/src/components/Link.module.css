@@ -1,0 +1,21 @@
+.socialLink img,
+.pageLink span {
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.25s ease;
+}
+
+.socialLink:hover img,
+.pageLink:hover span {
+    transform: translateY(5px);
+}
+
+.socialLink,
+.pageLink {
+    display: inline-block;
+    font-style: normal;
+}
+
+.pageLink {
+    font-size: 25px;
+}
