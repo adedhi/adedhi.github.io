@@ -1,0 +1,18 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.hello {
+    font-size: 45px;
+}
+
+.biography {
+    font-size: 40px;
+}
+
+.biography strong {
+    font-size: 50px;
+}
