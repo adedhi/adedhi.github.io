@@ -1,15 +1,22 @@
 import { SOCIAL_LINKS } from '../data/links';
 import { PageLink, SocialLink } from './Link';
-import githubLogo from '../assets/github.svg';
-import linkedInLogo from '../assets/linkedin.svg';
-import emailLogo from '../assets/email.svg';
+import ThemeToggle from './ThemeToggle';
+import GithubLogo from '../assets/github.svg?react';
+import LinkedInLogo from '../assets/linkedin.svg?react';
+import EmailLogo from '../assets/email.svg?react';
 import styles from './Header.module.css';
 
-export default function Header() {
+export default function Header({
+    currentTheme,
+    toggleTheme
+}: {
+    currentTheme: string;
+    toggleTheme: () => void;
+}) {
     const socialLinks = [
-        { href: SOCIAL_LINKS.GITHUB, imageSrc: githubLogo, alt: "GitHub Logo", opensNewTab: true },
-        { href: SOCIAL_LINKS.LINKEDIN, imageSrc: linkedInLogo, alt: "LinkedIn Logo", opensNewTab: true },
-        { href: SOCIAL_LINKS.EMAIL, imageSrc: emailLogo, alt: "Email Logo" }
+        { href: SOCIAL_LINKS.GITHUB, imageSrc: GithubLogo, alt: "GitHub Logo", opensNewTab: true },
+        { href: SOCIAL_LINKS.LINKEDIN, imageSrc: LinkedInLogo, alt: "LinkedIn Logo", opensNewTab: true },
+        { href: SOCIAL_LINKS.EMAIL, imageSrc: EmailLogo, alt: "Email Logo" }
     ];
 
     const pageLinks = [
@@ -25,7 +32,7 @@ export default function Header() {
                     <SocialLink
                         key={index}
                         href={link.href}
-                        imageSrc={link.imageSrc}
+                        Icon={link.imageSrc}
                         alt={link.alt}
                         opensNewTab={link.opensNewTab}
                     />
@@ -40,6 +47,7 @@ export default function Header() {
                         opensNewTab={link.opensNewTab}
                     />
                 ))}
+                <ThemeToggle currentTheme={currentTheme} toggleTheme={toggleTheme} />
             </div>
         </div>
     );

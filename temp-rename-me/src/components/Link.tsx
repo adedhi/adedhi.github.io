@@ -1,16 +1,17 @@
+import type { ElementType } from 'react';
 import styles from './Link.module.css';
 
 export function SocialLink({
     href,
-    imageSrc,
+    Icon,
     alt,
-    height = 35,
+    size = 35,
     opensNewTab = false
 }: {
     href: string;
-    imageSrc: string;
+    Icon: ElementType;
     alt: string;
-    height?: number;
+    size?: number;
     opensNewTab?: boolean
 }) {
     return (
@@ -19,8 +20,9 @@ export function SocialLink({
             className={styles.socialLink}
             target={opensNewTab ? "_blank" : undefined}
             rel={opensNewTab ? "noopener noreferrer" : undefined}
+            aria-label={alt}
         >
-            <img src={imageSrc} alt={alt} height={height} />
+            <Icon width={size} height={size} />
         </a>
     );
 }

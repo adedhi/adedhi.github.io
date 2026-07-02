@@ -1,11 +1,11 @@
-.socialLink img,
+.socialLink svg,
 .pageLink span {
     display: inline-block;
     vertical-align: middle;
     transition: transform 0.25s ease;
 }
 
-.socialLink:hover img,
+.socialLink:hover svg,
 .pageLink:hover span {
     transform: translateY(5px);
 }

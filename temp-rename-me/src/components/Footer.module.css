@@ -2,12 +2,14 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
+    width: fit-content;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 10px;
     margin-bottom: -54px;
+    margin-left: auto;
     z-index: 9999;
+    position: fixed;
     bottom: 50px;
     left: 0;
     right: 0;
