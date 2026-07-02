@@ -12,23 +12,23 @@
 }
 
 .slider {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+    border-radius: 28px;
+    color: #333;
+    background-color: #e0e0e0;
+    transition: background-color 0.4s ease;
     cursor: pointer;
+    user-select: none;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #e0e0e0;
-    transition: background-color 0.4s ease;
-    border-radius: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 0 10px;
-    box-sizing: border-box;
-    font-size: 13px;
-    color: #333;
-    user-select: none;
 }
 
 .slider:before {
