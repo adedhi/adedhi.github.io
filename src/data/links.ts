@@ -10,6 +10,5 @@ export const PROJECT_LINKS = {
     BATTLESHIP: "https://github.com/adedhi/battleship-java",
     MATRIX_CALCULATOR: "https://github.com/adedhi/matrix-calculator",
     WEBSITE: "https://github.com/adedhi/adedhi.github.io",
-    BOGGLE: "https://github.com/stars/adedhi/lists/boggle",
-    ODIN_PROJECT: "https://github.com/stars/adedhi/lists/the-odin-project"
+    BOGGLE: "https://github.com/stars/adedhi/lists/boggle"
 };

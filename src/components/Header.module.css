@@ -20,10 +20,23 @@
     margin-left: 50px;
 }
 
-.pageLinks {
+.rightContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     margin-right: 50px;
+}
+
+.pageLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .pageLinks {
+        display: none;
+    }
 }

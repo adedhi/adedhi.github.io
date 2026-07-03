@@ -61,22 +61,16 @@ export default function Projects() {
             points: ["Created a C-based Matrix Calculator with efficient matrix operations, including determinant calculation, row echelon form, and inverses, all within a streamlined command-line interface"],
         },
         {
-            name: "Personal Website",
+            name: "Personal Portfolio",
             href: PROJECT_LINKS.WEBSITE,
-            resources: ["HTML", "CSS", "JavaScript"],
-            points: ["Developed a responsive personal website showcasing projects and skills, leveraging HTML for content structure, CSS for modern design and layout, and JavaScript for enhanced interactivity and dynamic visual transitions"],
+            resources: ["TypeScript", "React", "Vite", "CSS"],
+            points: ["Developed and deployed a modern, responsive personal portfolio using React and Vite, featuring a component-driven architecture, modular styling, and an automated CI/CD pipeline."],
         },
         {
             name: "Boggle Word Game",
             href: PROJECT_LINKS.BOGGLE,
             resources: ["Rust", "Haskell", "Elixir", "Smalltalk"],
             points: ["Developed the Boggle word game in four different languages, implementing an efficient algorithm to identify valid words from an NxN grid of letters, showcasing versatility in functional and object-oriented programming paradigms"],
-        },
-        {
-            name: "The Odin Project",
-            href: PROJECT_LINKS.ODIN_PROJECT,
-            resources: ["HTML", "CSS", "JavaScript"],
-            points: ["Developed interactive web-based projects, including a calculator and etch-a-sketch, for the Foundations Course in The Odin Project, utilizing HTML for structure, CSS for design, and JavaScript to implement dynamic functionality, demonstrating a strong foundation in front-end web development"],
         }
     ];
 
