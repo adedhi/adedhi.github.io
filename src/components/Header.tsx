@@ -38,15 +38,17 @@ export default function Header({
                     />
                 ))}
             </div>
-            <div className={styles.pageLinks}>
-                {pageLinks.map((link, index) => (
-                    <PageLink
-                        key={index}
-                        href={link.href}
-                        text={link.text}
-                        opensNewTab={link.opensNewTab}
-                    />
-                ))}
+            <div className={styles.rightContent}>
+                <div className={styles.pageLinks}>
+                    {pageLinks.map((link, index) => (
+                        <PageLink
+                            key={index}
+                            href={link.href}
+                            text={link.text}
+                            opensNewTab={link.opensNewTab}
+                        />
+                    ))}
+                </div>
                 <ThemeToggle currentTheme={currentTheme} toggleTheme={toggleTheme} />
             </div>
         </div>
