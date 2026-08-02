@@ -5,6 +5,8 @@ export const SOCIAL_LINKS = {
 };
 
 export const PROJECT_LINKS = {
+    JOB_TRACKER: "https://github.com/adedhi/job-tracker",
+    STASHD: "https://github.com/adedhi/stashd",
     DATA_ANALYSIS_AND_VISUALIZATION: "https://github.com/adedhi/google-sheets-data-analysis-and-visualization",
     WEB_SCRAPER: "https://github.com/adedhi/manga-update-web-scraper",
     BATTLESHIP: "https://github.com/adedhi/battleship-java",
