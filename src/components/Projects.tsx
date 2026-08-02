@@ -37,6 +37,18 @@ function Project({
 export default function Projects() {
     const projectsInfo = [
         {
+            name: "Job Tracker",
+            href: PROJECT_LINKS.JOB_TRACKER,
+            resources: ["React", "Typescript", "Node.js", "Express", "PostgreSQL", "Prisma", "MUI"],
+            points: ["Architected and built a full-stack job application tracker from the ground up, featuring a normalized PostgreSQL schema, session-based authentication built from scratch, and a responsive React/TypeScript dashboard, deployed as an npm-workspaces monorepo across Vercel and Render"],
+        },
+        {
+            name: "stashd",
+            href: PROJECT_LINKS.STASHD,
+            resources: ["Rust"],
+            points: ["Built a Redis-compatible key-value store server from scratch in Rust, implementing the RESP wire protocol for compatibility with real Redis clients like redis-cli, thread-per-connection concurrency over mutex-guarded shared state, and crash-safe persistence via a compacting write-ahead log"],
+        },
+        {
             name: "Google Sheets Data Analysis and Visualization",
             href: PROJECT_LINKS.DATA_ANALYSIS_AND_VISUALIZATION,
             resources: ["Python", "pandas", "NumPy", "Matplotlib"],
