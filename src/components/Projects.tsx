@@ -49,6 +49,12 @@ export default function Projects() {
             points: ["Built a Redis-compatible key-value store server from scratch in Rust, implementing the RESP wire protocol for compatibility with real Redis clients like redis-cli, thread-per-connection concurrency over mutex-guarded shared state, and crash-safe persistence via a compacting write-ahead log"],
         },
         {
+            name: "resumatch",
+            href: PROJECT_LINKS.RESUMATCH,
+            resources: ["Python", "sentence-transformers", "KeyBERT", "spaCy", "Streamlit"],
+            points: ["Built a resume-to-job-description matching tool using sentence embeddings and cosine similarity to score how well a resume covers a posting's requirements, showing which required skills are already covered and which are missing"],
+        },
+        {
             name: "Google Sheets Data Analysis and Visualization",
             href: PROJECT_LINKS.DATA_ANALYSIS_AND_VISUALIZATION,
             resources: ["Python", "pandas", "NumPy", "Matplotlib"],
