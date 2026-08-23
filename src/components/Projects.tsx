@@ -46,49 +46,49 @@ export default function Projects() {
             name: "stashd",
             href: PROJECT_LINKS.STASHD,
             resources: ["Rust"],
-            points: ["Built a Redis-compatible key-value store server from scratch in Rust, implementing the RESP wire protocol for compatibility with real Redis clients like redis-cli, thread-per-connection concurrency over mutex-guarded shared state, and crash-safe persistence via a compacting write-ahead log"],
+            points: ["Engineered a Redis-compatible key-value store server from scratch in Rust, implementing the RESP wire protocol for compatibility with real Redis clients like redis-cli, thread-per-connection concurrency over mutex-guarded shared state, and crash-safe persistence via a compacting write-ahead log"],
         },
         {
             name: "resumatch",
             href: PROJECT_LINKS.RESUMATCH,
             resources: ["Python", "sentence-transformers", "KeyBERT", "spaCy", "Streamlit"],
-            points: ["Built a resume-to-job-description matching tool using sentence embeddings and cosine similarity to score how well a resume covers a posting's requirements, showing which required skills are already covered and which are missing"],
+            points: ["Constructed a resume-to-job-description matching tool using sentence embeddings and cosine similarity to score how well a resume covers a posting's requirements, showing which required skills are already covered and which are missing"],
         },
         {
             name: "Google Sheets Data Analysis and Visualization",
             href: PROJECT_LINKS.DATA_ANALYSIS_AND_VISUALIZATION,
             resources: ["Python", "pandas", "NumPy", "Matplotlib"],
-            points: ["Created Python scripts to analyze and visualize survey data from Google Sheets, processing over 100 responses and generating 11 insightful graphs, demonstrating strong skills in data wrangling and statistical analysis"],
+            points: ["Authored Python scripts to analyze and visualize survey data from Google Sheets, processing over 100 responses and generating 11 insightful graphs, demonstrating strong skills in data wrangling and statistical analysis"],
         },
         {
             name: "Manga Update Web Scraper",
             href: PROJECT_LINKS.WEB_SCRAPER,
             resources: ["Python", "Selenium", "Requests", "Beautiful Soup", "Datetime"],
-            points: ["Developed a Python web scraper using Selenium and Beautiful Soup, automating manga updates tracking with CSV data persistence and a user-friendly interface"],
+            points: ["Programmed a Python web scraper using Selenium and Beautiful Soup, automating manga updates tracking with CSV data persistence and a user-friendly interface"],
         },
         {
             name: "Battleship",
             href: PROJECT_LINKS.BATTLESHIP,
             resources: ["Java"],
-            points: ["Developed a modular, command-line battleship game in Java, featuring an intelligent algorithm for computer moves that demonstrates strong problem-solving, algorithmic thinking, and object-oriented design skills"],
+            points: ["Devised a modular, command-line battleship game in Java, featuring an intelligent algorithm for computer moves that demonstrates strong problem-solving, algorithmic thinking, and object-oriented design skills"],
         },
         {
             name: "Matrix Calculator",
             href: PROJECT_LINKS.MATRIX_CALCULATOR,
             resources: ["C"],
-            points: ["Created a C-based Matrix Calculator with efficient matrix operations, including determinant calculation, row echelon form, and inverses, all within a streamlined command-line interface"],
+            points: ["Implemented a C-based Matrix Calculator with efficient matrix operations, including determinant calculation, row echelon form, and inverses, all within a streamlined command-line interface"],
         },
         {
             name: "Personal Portfolio",
             href: PROJECT_LINKS.WEBSITE,
             resources: ["TypeScript", "React", "Vite", "CSS"],
-            points: ["Developed and deployed a modern, responsive personal portfolio using React and Vite, featuring a component-driven architecture, modular styling, and an automated CI/CD pipeline."],
+            points: ["Designed and deployed a modern, responsive personal portfolio using React and Vite, featuring a component-driven architecture, modular styling, and an automated CI/CD pipeline"],
         },
         {
             name: "Boggle Word Game",
             href: PROJECT_LINKS.BOGGLE,
             resources: ["Rust", "Haskell", "Elixir", "Smalltalk"],
-            points: ["Developed the Boggle word game in four different languages, implementing an efficient algorithm to identify valid words from an NxN grid of letters, showcasing versatility in functional and object-oriented programming paradigms"],
+            points: ["Coded the Boggle word game in four different languages, implementing an efficient algorithm to identify valid words from an NxN grid of letters, showcasing versatility in functional and object-oriented programming paradigms"],
         }
     ];
 
