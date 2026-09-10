@@ -21,6 +21,7 @@ export default function Header({
 
     const pageLinks = [
         { href: "#about", text: "About" },
+        { href: "#experience", text: "Experience" },
         { href: "#projects", text: "Projects" },
         { href: "/Resume - Adeshvir Dhillon.pdf", text: "Résumé", opensNewTab: true },
     ];

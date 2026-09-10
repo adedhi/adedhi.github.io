@@ -4,6 +4,10 @@ export const SOCIAL_LINKS = {
     EMAIL: "mailto:dadeshvir@gmail.com"
 };
 
+export const EXPERIENCE_LINKS = {
+    YUJA: "https://www.yuja.com/"
+};
+
 export const PROJECT_LINKS = {
     JOB_TRACKER: "https://github.com/adedhi/job-tracker",
     STASHD: "https://github.com/adedhi/stashd",

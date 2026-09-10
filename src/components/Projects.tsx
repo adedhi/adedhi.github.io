@@ -99,10 +99,7 @@ export default function Projects() {
                 {projectsInfo.map((project, index) => (
                     <Project
                         key={index}
-                        name={project.name}
-                        href={project.href}
-                        resources={project.resources}
-                        points={project.points}
+                        {...project}
                     />
                 ))}
             </div>

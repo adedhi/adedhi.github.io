@@ -1,0 +1,96 @@
+.experiences {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 0px;
+    scroll-margin-top: 100px;
+    transition: all 1.25s;
+}
+
+.experiencesHeader {
+    font-size: 35px;
+    white-space: nowrap;
+    margin-top: -3px;
+}
+
+.experiencesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.experienceHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 12.5px;
+    margin-bottom: 5px;
+}
+
+.experienceRoleName {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.experienceMetadata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.experienceLink {
+    width: fit-content;
+}
+
+.experienceCompanyName {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+}
+
+.experienceCompanyName:hover {
+    text-decoration-thickness: 2px;
+}
+
+.experienceDateRange {
+    font-size: 20px;
+    opacity: 0.75;
+}
+
+.experienceResources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.experienceResource {
+    border: 0.5px solid var(--text-color); 
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.experienceDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.experiencePoint strong {
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1200px) {
+    .experiences {
+        flex-direction: column;
+    }
+}
