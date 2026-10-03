@@ -62,7 +62,7 @@ export default function Experiences() {
             companyName: "YuJa Canada Inc.",
             companyLink: EXPERIENCE_LINKS.YUJA,
             dateRange: "Jan. 2025 - Apr. 2026",
-            resources: ["TypeScript", "React", "Node.js", "Express", "PostgreSQL", "Java", "AWS", "Kubernetes"],
+            resources: ["TypeScript", "React", "Node.js", "Express", "MySQL", "Java", "AWS", "Kubernetes"],
             description: "At YuJa, I worked on the Verity product team, building YuJa's test proctoring platform used by 200+ higher-education and K-12 institutions. I worked in an agile environment with weekly scrum, collaborating across UI/UX, testing, and marketing teams, and progressed from frontend fixes to full-stack features spanning the product's frontend, backend, and access-control services, primarily in TypeScript, React, Node.js, and Java.",
             points: [
                 {
