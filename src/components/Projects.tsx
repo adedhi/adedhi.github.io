@@ -49,6 +49,12 @@ export default function Projects() {
             points: ["Engineered a Redis-compatible key-value store server from scratch in Rust, implementing the RESP wire protocol for compatibility with real Redis clients like redis-cli, thread-per-connection concurrency over mutex-guarded shared state, and crash-safe persistence via a compacting write-ahead log"],
         },
         {
+            name: "AstroLog",
+            href: PROJECT_LINKS.ASTROLOG,
+            resources: ["Python", "Streamlit", "PostgreSQL", "pgvector", "SQLAlchemy", "Pydantic", "Cloudflare R2", "Astropy"],
+            points: ["Built an astrophotography session log and RAG assistant where a local CLI script extracts camera EXIF settings, strips metadata before uploading images to Cloudflare R2, and stores sky/weather data alongside vector embeddings in PostgreSQL, allowing visitors on the Streamlit app to browse the gallery or ask an LLM questions grounded in past sessions"],
+        },
+        {
             name: "resumatch",
             href: PROJECT_LINKS.RESUMATCH,
             resources: ["Python", "sentence-transformers", "KeyBERT", "spaCy", "Streamlit"],
